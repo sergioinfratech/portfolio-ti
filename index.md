@@ -8,6 +8,9 @@ Bem-vindo ao meu site técnico! Aqui você encontra projetos simulados, serviço
 
 Sou formado em Redes de Computadores pela FATEC e atuo com servidores, redes, segurança da informação e suporte técnico. Trabalho em tempo integral, mas ofereço serviços pontuais durante as noites e finais de semana.
 
+🔗 Acesse meu site técnico:  
+👉 https://sergioinfratech.github.io/portfolio-ti
+
 ---
 
 ## 🛠️ Serviços que ofereço
