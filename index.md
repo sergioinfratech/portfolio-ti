@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 👨‍💻 Sergio — Especialista em Infraestrutura de TI
 
 ![Linux](https://img.shields.io/badge/Linux-Expert-green)
