@@ -22,14 +22,14 @@ Bem-vindo ao meu portfólio técnico! Sou formado em Redes de Computadores pela 
 
 ## 📁 Projetos Simulados
 
-Este repositório contém projetos técnicos simulados que demonstram minha experiência e metodologia de trabalho. Cada pasta inclui documentação, scripts e exemplos práticos.
+Este repositório contém projetos técnicos simulados que demonstram minha experiência e metodologia de trabalho. Cada arquivo inclui documentação, comandos e boas práticas.
 
-| Projeto | Tecnologias | Objetivo |
-|--------|-------------|----------|
-| Servidor Web Seguro | Apache, Let's Encrypt | Hospedagem com SSL |
-| Firewall + Pi-hole | pfSense, DNS Filtering | Segurança e filtragem |
-| Help Desk Residencial | AnyDesk, Zoom | Suporte remoto |
-| Consultoria Empresarial | Linux, Windows Server | Implantação híbrida |
+| Projeto | Arquivo | Tecnologias | Objetivo |
+|--------|---------|-------------|----------|
+| Servidor Web Seguro | [`servidor-web.md`](projetos/servidor-web.md) | Apache, Let's Encrypt | Hospedagem com SSL |
+| Firewall + Pi-hole | [`firewall-pihole.md`](projetos/firewall-pihole.md) | pfSense, DNS Filtering | Segurança e filtragem |
+| Help Desk Remoto | [`helpdesk-remoto.md`](projetos/helpdesk-remoto.md) | AnyDesk, Zoom | Suporte técnico remoto |
+| Consultoria Empresarial | [`consultoria-empresarial.md`](projetos/consultoria-empresarial.md) | Linux, Windows Server | Implantação híbrida |
 
 ---
 
