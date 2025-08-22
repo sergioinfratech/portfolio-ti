@@ -1,37 +1,32 @@
 # 👨‍💻 Sergio — Especialista em Infraestrutura de TI
 
-Bem-vindo ao meu site técnico! Aqui você encontra projetos simulados, serviços que ofereço como freelancer e informações sobre minha trajetória profissional.
+![Linux](https://img.shields.io/badge/Linux-Expert-green)
+![pfSense](https://img.shields.io/badge/pfSense-Firewall-blue)
+![Disponibilidade](https://img.shields.io/badge/Disponível-Noites%20e%20Finais%20de%20Semana-orange)
+
+Bem-vindo ao meu portfólio técnico! Sou formado em Redes de Computadores pela FATEC e atuo com servidores, redes, segurança e suporte técnico. Atualmente trabalho em tempo integral, mas ofereço serviços pontuais como freelancer aos finais de semana e à noite.
 
 ---
 
-## 💼 Sobre mim
+## 💼 Serviços que ofereço
 
-Sou formado em Redes de Computadores pela FATEC e atuo com servidores, redes, segurança da informação e suporte técnico. Trabalho em tempo integral, mas ofereço serviços pontuais durante as noites e finais de semana.
-
-🔗 Acesse meu site técnico:  
-👉 https://sergioinfratech.github.io/portfolio-ti
-
----
-
-## 🛠️ Serviços que ofereço
-
-- 🔒 Segurança de rede com pfSense e Pi-hole  
-- 🌐 Configuração de servidores web com SSL  
-- 🧑‍💻 Suporte técnico remoto para usuários domésticos  
-- 🏢 Consultoria híbrida para pequenas e médias empresas  
+- ✔️ Configuração de servidores web com SSL  
+- ✔️ Firewall com pfSense + Pi-hole para bloqueio de anúncios e sites indesejados  
+- ✔️ Suporte técnico remoto para usuários domésticos  
+- ✔️ Consultoria híbrida para pequenas e médias empresas  
 
 ---
 
 ## 📁 Projetos Simulados
 
-Explore os projetos que demonstram minha metodologia e domínio técnico:
+Este repositório contém projetos técnicos simulados que demonstram minha experiência e metodologia de trabalho. Cada arquivo inclui documentação, comandos e boas práticas.
 
-| Projeto | Tecnologias | Link |
-|--------|-------------|------|
-| Servidor Web Seguro | Apache, Let's Encrypt | [Ver projeto](projetos/servidor-web.md) |
-| Firewall + Pi-hole | pfSense, DNS Filtering | [Ver projeto](projetos/firewall-pihole.md) |
-| Help Desk Remoto | AnyDesk, Zoom | [Ver projeto](projetos/helpdesk-remoto.md) |
-| Consultoria Empresarial | Linux, Windows Server | [Ver projeto](projetos/consultoria-empresarial.md) |
+| Projeto | Arquivo | Tecnologias | Objetivo |
+|--------|---------|-------------|----------|
+| Servidor Web Seguro | [`servidor-web.md`](projetos/servidor-web.md) | Apache, Let's Encrypt | Hospedagem com SSL |
+| Firewall + Pi-hole | [`firewall-pihole.md`](projetos/firewall-pihole.md) | pfSense, DNS Filtering | Segurança e filtragem |
+| Help Desk Remoto | [`helpdesk-remoto.md`](projetos/helpdesk-remoto.md) | AnyDesk, Zoom | Suporte técnico remoto |
+| Consultoria Empresarial | [`consultoria-empresarial.md`](projetos/consultoria-empresarial.md) | Linux, Windows Server | Implantação híbrida |
 
 ---
 
@@ -40,6 +35,10 @@ Explore os projetos que demonstram minha metodologia e domínio técnico:
 📧 Email: [sergio.suporte@gmail.com](mailto:sergio.suporte@gmail.com)  
 🔗 LinkedIn: [linkedin.com/in/sergioinfratech](https://linkedin.com/in/sergioinfratech)  
 🕒 Disponibilidade: noites e finais de semana
+
+---
+
+📄 Veja também minha [apresentação institucional](apresentacao.md)
 
 ---
 
