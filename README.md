@@ -41,4 +41,8 @@ Este repositório contém projetos técnicos simulados que demonstram minha expe
 
 ---
 
+📄 Veja também minha [apresentação institucional](apresentacao.md)
+
+---
+
 > 💬 *"Tecnologia é minha linguagem, segurança é minha missão."*
