@@ -6,10 +6,6 @@
 
 Bem-vindo ao meu portfólio técnico! Sou formado em Redes de Computadores pela FATEC e atuo com servidores, redes, segurança e suporte técnico. Atualmente trabalho em tempo integral, mas ofereço serviços pontuais como freelancer aos finais de semana e à noite.
 
-🔗 **Acesse meu site técnico:**  
-👉 [https://sergioinfratech.github.io/portfolio-ti](https://sergioinfratech.github.io/portfolio-ti)
-
-
 ---
 
 ## 💼 Serviços que ofereço
