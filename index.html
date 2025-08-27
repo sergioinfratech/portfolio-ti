@@ -2,10 +2,10 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <title>👨‍💻 Sergio — Especialista em Infraestrutura de TI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empresa X - Portfólio</title>
 
-  <!-- Google Fonts -->
+  <!-- Fontes Google -->
   <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
@@ -17,29 +17,56 @@
 
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: #f5f5f5;
+      background-color: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
 
-    .header {
+    header {
       background-image: url('fundo.jpg');
       background-size: cover;
       background-position: center;
+      color: white;
       text-align: center;
       padding: 60px 20px;
-      color: white;
     }
 
-    .header h1 {
+    header h1 {
       font-family: 'Agbalumo', cursive;
-      font-size: 40px;
-      line-height: 1.2;
+      font-size: 36px;
+      margin-bottom: 10px;
     }
 
-    .container {
-      max-width: 1000px;
+    header p {
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #003366;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "🔹";
+      margin-right: 8px;
     }
 
     table {
@@ -47,22 +74,21 @@
       border-collapse: collapse;
       background-color: white;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      font-size: 16px;
     }
 
     th, td {
-      padding: 14px;
+      padding: 12px;
       border: 1px solid #ddd;
-      text-align: center;
+      text-align: left;
     }
 
     th {
-      background-color: #f0f0f0;
-      font-weight: 600;
+      background-color: #005b96;
+      color: white;
     }
 
     a {
-      color: #0077cc;
+      color: #005b96;
       text-decoration: none;
     }
 
@@ -70,9 +96,20 @@
       text-decoration: underline;
     }
 
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 14px;
+    }
+
     @media (max-width: 768px) {
-      .header h1 {
-        font-size: 32px;
+      header h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 20px;
       }
 
       table, thead, tbody, th, td, tr {
@@ -86,9 +123,9 @@
 
       tr {
         margin-bottom: 20px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
         background-color: white;
         padding: 10px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
       }
 
       td {
@@ -110,48 +147,78 @@
 </head>
 <body>
 
-  <div class="header">
-    <h1><a href="https://ritmize.com/github/" style="color: inherit; text-decoration: none;">Empresa X</a></h1>
-  </div>
+  <header>
+    <h1>👨‍💻 Sergio — Especialista em Infraestrutura de TI</h1>
+    <p>Tecnologia é minha linguagem, segurança é minha missão.</p>
+  </header>
 
-  <div class="container">
-    <table>
-      <thead>
-        <tr>
-          <th>Projeto</th>
-          <th>Arquivo</th>
-          <th>Tecnologias</th>
-          <th>Objetivo</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td data-label="Projeto">Servidor Web Seguro</td>
-          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/servidor-web.md" target="_blank">Ver projeto</a></td>
-          <td data-label="Tecnologias">Apache, Let's Encrypt</td>
-          <td data-label="Objetivo">Garantir conexão segura com SSL</td>
-        </tr>
-        <tr>
-          <td data-label="Projeto">Firewall + Pi-hole</td>
-          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/firewall-pihole.md" target="_blank">Ver projeto</a></td>
-          <td data-label="Tecnologias">pfSense, DNS Filtering</td>
-          <td data-label="Objetivo">Bloqueio de anúncios e proteção de rede</td>
-        </tr>
-        <tr>
-          <td data-label="Projeto">Help Desk Remoto</td>
-          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/helpdesk-remoto.md" target="_blank">Ver projeto</a></td>
-          <td data-label="Tecnologias">AnyDesk, Zoom</td>
-          <td data-label="Objetivo">Suporte técnico remoto eficiente</td>
-        </tr>
-        <tr>
-          <td data-label="Projeto">Consultoria Empresarial</td>
-          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/consultoria-empresarial.md" target="_blank">Ver projeto</a></td>
-          <td data-label="Tecnologias">Linux, Windows Server</td>
-          <td data-label="Objetivo">Modernização da infraestrutura de TI</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Sou formado em Redes de Computadores pela FATEC, instituição reconhecida pela excelência em formação tecnológica. Ao longo da minha trajetória, desenvolvi sólida experiência em infraestrutura de TI, atuando diretamente com servidores Linux e Windows, redes corporativas, segurança da informação e suporte técnico especializado.</p>
+      <p>Minha rotina profissional envolve a administração de ambientes complexos, implementação de soluções seguras e escaláveis, além da resolução de problemas críticos com agilidade e precisão. Tenho domínio em ferramentas como pfSense, Pi-hole, Apache, Let’s Encrypt, entre outras tecnologias que aplico tanto em projetos internos quanto em consultorias externas.</p>
+      <p>Apesar de trabalhar em tempo integral, mantenho minha disponibilidade para serviços pontuais durante as noites e finais de semana. Atendo demandas de empresas e profissionais que precisam de suporte confiável, seja para configurar servidores, reforçar a segurança da rede, ou obter orientação técnica personalizada.</p>
+      <p>Meu compromisso é entregar soluções eficientes, com foco em estabilidade, segurança e boas práticas. Acredito que a tecnologia deve ser acessível, funcional e estratégica — e é exatamente isso que busco oferecer em cada projeto que assumo.</p>
+    </section>
+
+    <section>
+      <h2>🔧 Serviços Especializados em Infraestrutura de TI e Segurança da Informação</h2>
+      <ul>
+        <li>Segurança de Rede com pfSense e Pi-hole</li>
+        <li>Configuração de Servidores Web com Certificados SSL</li>
+        <li>Suporte técnico remoto e presencial</li>
+        <li>Consultoria híbrida para pequenas e médias empresas</li>
+        <li>Serviços adicionais sob demanda: ambientes de teste, monitoramento, backup, recuperação de dados, políticas de segurança e treinamento básico</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📁 Projetos Realizados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3" style="text-align:center; background-color:#003366; color:white; font-size:20px;">EMPRESAX</th>
+          </tr>
+          <tr>
+            <th>Projeto</th>
+            <th>Tecnologias</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Projeto">Servidor Web Seguro</td>
+            <td data-label="Tecnologias">Apache, Let’s Encrypt</td>
+            <td data-label="Link"><a href="https://sergioinfratech.github.io/projetos/servidor-web.md" target="_blank">Ver projeto</a></td>
+          </tr>
+          <tr>
+            <td data-label="Projeto">Firewall + Pi-hole</td>
+            <td data-label="Tecnologias">pfSense, DNS Filtering</td>
+            <td data-label="Link"><a href="https://sergioinfratech.github.io/projetos/firewall-pihole.md" target="_blank">Ver projeto</a></td>
+          </tr>
+          <tr>
+            <td data-label="Projeto">Help Desk Remoto</td>
+            <td data-label="Tecnologias">AnyDesk, Zoom</td>
+            <td data-label="Link"><a href="https://sergioinfratech.github.io/projetos/helpdesk-remoto.md" target="_blank">Ver projeto</a></td>
+          </tr>
+          <tr>
+            <td data-label="Projeto">Consultoria Empresarial</td>
+            <td data-label="Tecnologias">Linux, Windows Server</td>
+            <td data-label="Link"><a href="https://sergioinfratech.github.io/projetos/consultoria-empresarial.md" target="_blank">Ver projeto</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📞 Contato</h2>
+      <p>Disponível para serviços pontuais durante as noites e finais de semana. Entre em contato para suporte técnico, consultoria ou projetos personalizados.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Sergio — Todos os direitos reservados.
+  </footer>
 
 </body>
 </html>
