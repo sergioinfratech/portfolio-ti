@@ -1,79 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>👨‍💻 Sergio — Especialista em Infraestrutura de TI</title>
-  <meta name="description" content="Portfólio técnico com projetos simulados e serviços de TI">
-  <link rel="stylesheet" href="/portfolio-ti/assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa X - Portfólio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
-  .badges {
-    text-align: center;
-    margin: 20px 0;
-  }
-  .badges img {
-    margin: 5px;
-  }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  .page-header {
-    background: linear-gradient(to right, #004d4d, #ffffff); /* azul petróleo → branco */
-    padding: 30px 20px;
-    text-align: center;
-    color: #fff;
-  }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
 
-  .page-header h1,
-  .page-header h2 {
-    margin: 0;
-    padding: 5px 0;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-  }
+    .header {
+      background-image: url('fundo.jpg');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
 
-  .page-header .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #006666;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-</style>
+    .header h1 {
+      font-family: 'Agbalumo', cursive;
+      font-size: 40px;
+      line-height: 1.2;
+    }
 
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      font-size: 16px;
+    }
+
+    th, td {
+      padding: 14px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: 600;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 32px;
+      }
+
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        background-color: white;
+        padding: 10px;
+      }
+
+      td {
+        text-align: left;
+        padding: 10px;
+        border: none;
+        position: relative;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+      }
+    }
+  </style>
 </head>
 <body>
-  <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-  <header class="page-header" role="banner">
-    <h1 class="project-name">👨‍💻 Sergio — Especialista em Infraestrutura de TI</h1>
-    <h2 class="project-tagline">Portfólio técnico com projetos simulados e serviços de TI</h2>
-    <a href="https://github.com/sergioinfratech/portfolio-ti" class="btn">View on GitHub</a>
-  </header>
+  <div class="header">
+    <h1><a href="https://ritmize.com/github/" style="color: inherit; text-decoration: none;">Empresa X</a></h1>
+  </div>
 
-  <main id="content" class="main-content" role="main">
-    <div class="badges">
-      <img src="https://img.shields.io/badge/Linux-Expert-green" alt="Linux">
-      <img src="https://img.shields.io/badge/pfSense-Firewall-blue" alt="pfSense">
-      <img src="https://img.shields.io/badge/Disponível-Noites%20e%20Finais%20de%20Semana-orange" alt="Disponibilidade">
-    </div>
-
-    <p>Bem-vindo ao meu portfólio técnico! Sou formado em Redes de Computadores pela FATEC e atuo com servidores, redes, segurança e suporte técnico. Atualmente trabalho em tempo integral, mas ofereço serviços pontuais como freelancer aos finais de semana e à noite.</p>
-
-    <hr>
-
-    <h2>💼 Serviços que ofereço</h2>
-    <ul>
-      <li>✔️ Configuração de servidores web com SSL</li>
-      <li>✔️ Firewall com pfSense + Pi-hole para bloqueio de anúncios e sites indesejados</li>
-      <li>✔️ Suporte técnico remoto para usuários domésticos</li>
-      <li>✔️ Consultoria híbrida para pequenas e médias empresas</li>
-    </ul>
-
-    <hr>
-
-    <h2>📁 Projetos Simulados</h2>
-    <p>Este repositório contém projetos técnicos simulados que demonstram minha experiência e metodologia de trabalho. Cada arquivo inclui documentação, comandos e boas práticas.</p>
-
+  <div class="container">
     <table>
       <thead>
         <tr>
@@ -85,53 +126,32 @@
       </thead>
       <tbody>
         <tr>
-          <td>Servidor Web Seguro</td>
-          <td><a href="/portfolio-ti/projetos/servidor-web.html">servidor-web.md</a></td>
-          <td>Apache, Let’s Encrypt</td>
-          <td>Hospedagem com SSL</td>
+          <td data-label="Projeto">Servidor Web Seguro</td>
+          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/servidor-web.md" target="_blank">Ver projeto</a></td>
+          <td data-label="Tecnologias">Apache, Let's Encrypt</td>
+          <td data-label="Objetivo">Garantir conexão segura com SSL</td>
         </tr>
         <tr>
-          <td>Firewall + Pi-hole</td>
-          <td><a href="/portfolio-ti/projetos/firewall-pihole.html">firewall-pihole.md</a></td>
-          <td>pfSense, DNS Filtering</td>
-          <td>Segurança e filtragem</td>
+          <td data-label="Projeto">Firewall + Pi-hole</td>
+          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/firewall-pihole.md" target="_blank">Ver projeto</a></td>
+          <td data-label="Tecnologias">pfSense, DNS Filtering</td>
+          <td data-label="Objetivo">Bloqueio de anúncios e proteção de rede</td>
         </tr>
         <tr>
-          <td>Help Desk Remoto</td>
-          <td><a href="/portfolio-ti/projetos/helpdesk-remoto.html">helpdesk-remoto.md</a></td>
-          <td>AnyDesk, Zoom</td>
-          <td>Suporte técnico remoto</td>
+          <td data-label="Projeto">Help Desk Remoto</td>
+          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/helpdesk-remoto.md" target="_blank">Ver projeto</a></td>
+          <td data-label="Tecnologias">AnyDesk, Zoom</td>
+          <td data-label="Objetivo">Suporte técnico remoto eficiente</td>
         </tr>
         <tr>
-          <td>Consultoria Empresarial</td>
-          <td><a href="/portfolio-ti/projetos/consultoria-empresarial.html">consultoria-empresarial.md</a></td>
-          <td>Linux, Windows Server</td>
-          <td>Implantação híbrida</td>
+          <td data-label="Projeto">Consultoria Empresarial</td>
+          <td data-label="Arquivo"><a href="https://sergioinfratech.github.io/projetos/consultoria-empresarial.md" target="_blank">Ver projeto</a></td>
+          <td data-label="Tecnologias">Linux, Windows Server</td>
+          <td data-label="Objetivo">Modernização da infraestrutura de TI</td>
         </tr>
       </tbody>
     </table>
+  </div>
 
-    <hr>
-
-    <h2>📞 Contato</h2>
-    <p>
-      📧 Email: <a href="mailto:sergio.suporte@gmail.com">sergio.suporte@gmail.com</a><br>
-      🔗 LinkedIn: <a href="https://linkedin.com/in/sergioinfratech">linkedin.com/in/sergioinfratech</a><br>
-      🕒 Disponibilidade: noites e finais de semana
-    </p>
-
-    <hr>
-
-    <p>📄 Veja também minha <a href="https://github.com/sergioinfratech/portfolio-ti/projetos/apresentacao.md">apresentação institucional</a></p>
-
-    <blockquote>
-      💬 “Tecnologia é minha linguagem, segurança é minha missão.”
-    </blockquote>
-
-    <footer class="site-footer">
-      <span class="site-footer-owner"><a href="https://github.com/sergioinfratech/portfolio-ti">portfolio-ti</a> é mantido por <a href="https://github.com/sergioinfratech">sergioinfratech</a>.</span>
-      <span class="site-footer-credits">Esta página foi gerada por <a href="https://pages.github.com">GitHub Pages</a>.</span>
-    </footer>
-  </main>
 </body>
 </html>
