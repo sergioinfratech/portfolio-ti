@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>EmpresaX — Infraestrutura Virtualizada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-image: url('images/fundo.jpg'); /* use a imagem que você enviou */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-family: 'Agbalumo', cursive;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #003366;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "🔹";
+      margin-right: 8px;
+    }
+
+    .imagem {
+      margin: 20px 0;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .imagem img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .imagem:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EmpresaX — Infraestrutura Virtualizada</h1>
+    <p>Projeto completo com matriz, filiais e replicação de backups</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🏢 Visão Geral</h2>
+      <p>EmpresaX possui uma matriz e duas filiais, cada uma com servidores físicos e virtualizados. A estrutura foi projetada para alta disponibilidade, segurança e replicação de dados entre unidades e para um servidor externo localizado na residência do administrador.</p>
+    </section>
+
+    <section>
+      <h2>🖥️ Infraestrutura da Matriz</h2>
+      <ul>
+        <li>Servidor Dell R720 com Proxmox e 448 GB RAM</li>
+        <li>VMs: TrueNAS, Pi-hole, Windows Server 2016, Bacula Agent, Proxmox Backup Server, Apache Web Server</li>
+        <li>Servidor secundário para failover e balanceamento</li>
+        <li>Servidor NAS Dell R660xs com 256 TB SSD</li>
+        <li>Firewall baremetal com pfSense</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏬 Infraestrutura das Filiais</h2>
+      <ul>
+        <li>Servidor Dell R720 com Proxmox e 448 GB RAM</li>
+        <li>VMs: pfSense, TrueNAS, Pi-hole, Windows Server 2016, Bacula Agent, Proxmox Backup Server</li>
+        <li>Servidor secundário Dell R660xs com 256 TB SSD</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏠 Servidor Externo</h2>
+      <p>Servidor Lenovo TD350 com 2x Xeon E5-2699 v4, 256 GB RAM e 120 TB SSD, utilizado como destino de backup remoto para segurança adicional.</p>
+    </section>
+
+    <section>
+      <h2>🖼️ Imagens do Projeto</h2>
+      <div class="imagem">
+        <img src="imagens/proxmox_matriz.png" alt="Proxmox Matriz">
+      </div>
+      <div class="imagem">
+        <img src="imagens/proxmox_filial.png" alt="Proxmox Filial">
+      </div>
+      <div class="imagem">
+        <img src="imagens/grafana_monitoramento.png" alt="Grafana Monitoramento">
+      </div>
+      <div class="imagem">
+        <img src="imagens/truenas_dashboard.png" alt="TrueNAS Dashboard">
+      </div>
+      <div class="imagem">
+        <img src="imagens/bacula_backup.png" alt="Bacula Backup Overview">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Sergio Infratech — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
